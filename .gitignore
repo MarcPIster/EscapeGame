@@ -1,0 +1,77 @@
+# Unreal Engine 5-spezifische Ignorierungen
+####################
+# Verzeichnisse
+####################
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+/Plugins/*/Intermediate/
+/Plugins/*/Saved/
+
+####################
+# Dateitypen
+####################
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userprefs
+*.log
+*.vs/
+*.opendb
+
+####################
+# Visual Studio Code
+####################
+.vscode/
+
+####################
+# Visual Studio
+####################
+.vs/
+
+####################
+# Build-Ergebnisse
+####################
+*.pdb
+*.exe
+*.dll
+*.dylib
+*.lib
+*.app
+*.ipa
+*.apk
+*.obb
+*.so
+
+####################
+# Sonstiges
+####################
+# OS generierte Dateien
+.DS_Store
+Thumbs.db
+
+# Backup-Dateien
+*~
+*.bak
+
+# Sonstige UE4 Dateien
+*.VC.db
+*.ini
+*.swp
+*.lock
+*.tmp
+*.log
+*.dmp
+*.mdmp
+*.cpp~*
+*.h~*
+
+####################
+# Ignoriere bestimmte Unreal-Dateien (optional)
+####################
+# Source-Verzeichnis
+# /Source/
+# Content-Verzeichnis
+# /Content/
